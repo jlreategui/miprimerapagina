@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mi Primer Website</title>
+  <link rel="stylesheet" href="clase2da_style.css">
+  <style>
+      body{
+        background-color: rgba(83, 81, 81, 0.486);
+      }
+  </style>
+  </head>
+<body>
+    <!-- <div class="avatar">
+      <img src="banner_familia2.jpg" >
+    </div> -->
+   
+    <div class="container">
+      <center><img src="banner_familia2.jpg" width="800" height="200" title="Mi gran familia"></center>
+      <!--<p title="Mi casa de Campo" > Casona Villa de Paris</p>-->
+      <div class="presentacion">
+        <center>
+        <h1 style="font-size:40px;">Bienvenidos a mi primer Website! </h1>
+        <p>Soy <b>REATEGUI,</b>  ¡y esta es mi primera página web!</p>
+        <p>Estoy aprendiendo desarrollo web para crear sitios web <br> visualmente atrapantes y funcionales.</p>
+        <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.</br>
+           Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+        </center>
+      </div>
+      <!-- prueba de Id"> -->
+      <h1 id="myCabecera">ESTO ES UNA PRUEBA DE CABECERA CON Id</h1>
+      
+      <div class="box">
+        <p>Este es un ejemplo de CAJA</p>
+      </div>
+      
+      <section>
+        <article> 
+            <h1> History</h1>
+            <p>El proposito de esta pagina web es proporcionar una galeria de fotografias y directorio de mi gran 
+              familia clasificada por parentesco (article).
+            </p>
+        </article>
+      </section>
+    </div>
+
+    <!-- Jugando con Etiquetas <div> como flexbox -->
+      <div class="flexColumnas">
+        <div>1 <p>Parrafo columna 1 El proposito de esta pagina web es proporcionar una galeria de fotografias
+          y directorio de mi gran clasificada por parentesco Parrafo columna 1 El proposito de esta pagina web
+           es proporcionar una galeria de fotografias y directorio de mi gran 
+          familia clasificada por parentesco(article).</p> </div>
+        <div>2 <p>Parrafo columna 2 </p> </div>
+        <div>3 <p>Parrafo columna 3 </p> </div>
+        <div>4 <p>Parrafo columna 4 </p> </div>
+        
+      </div>
+
+      <div class="box1" id="one">One
+        <p>desarrollo web 1 </p>
+      </div>
+      <div class="box1" id="two">Two
+        <p>desarrollo web 2 </p>
+      </div>
+      <div class="box1" id="three">Three
+        <p>desarrollo web 3 </p>
+      </div>
+      <div class="box1" id="four">Four
+        <img src="f1.jpg" >
+      </div>
+
+      <!-- JUGANDO CON BOTONES -->
+      <button> <b>botón </b>
+        <br>
+        <br>
+        <!-- Puedo poner saltos de línea en él! -->
+        <hr>
+        <br>
+        <!-- <img src="f1.jpg" width="261" height="35" alt=""> -->
+      </button>
+
+      <button class="button button-1"></button>
+      <button class="button button-2"></button>
+      <button class="button button-3"></button>
+
+    <div class="pagInteres">
+      <b>Paginas de Interes:</b> <br><br>
+      <a href="http://www.elcomercio.pe">Diario El Comercio </a> <br><br>
+      <a href="http://www.trome.pe">Diario El Trome</a>
+    </div>
+    <script src="script.js"></script>
+    <button onclick="showAlert()">¡Presiona Click Aqui! </button>
+
+    <button onclick="sumar(5,2)">Mostrar Suma</button>
+         
+    <button onclick="mostrarPasos()">Mostrar Pasos</button>
+  </body>
+</html>

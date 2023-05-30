@@ -1,0 +1,114 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.capa2 {
+    background-color: red;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
+.capa1 {
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+.capa3 {
+    background-color: black;
+    width:340px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+} */
+
+.cajaRoja .a {
+    
+    height: 100px;
+    width: 100px;
+    /* padding: 10px; */
+    display:flex;
+    /* flex-direction: column;
+    justify-content: space-between;  */
+
+}
+.cajaRoja .b {
+    
+    height: 100px;
+    width: 100px;
+    
+    
+    /* padding: 10px;
+    display:flex;
+    align-self: center;  */
+    /* flex-direction: column;
+    justify-content: space-between; */
+
+}
+.cajaRoja .c {
+    
+    height: 100px;
+    width: 100px;
+    /* padding: 10px;
+    display:flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    
+
+}
+
+.cajaAzul  {
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+     
+}
+
+.cajaVerde {
+    margin: 50px;
+    height: 100px;
+    width: 100px;  
+    padding: 10px;
+ }
+
+.a{
+    background-color: coral;
+    border-color: darkkhaki;
+    margin: 50px;
+ }
+
+.b{
+    background-color:cornflowerblue;
+    border-color: darkkhaki;
+    margin: 150px;
+    align-self: center;
+ }
+
+.c{
+    background-color: darkseagreen;
+    border-color: darkkhaki;
+    margin: 250px;
+    
+}
+/* .cajaAzul{
+background-color:cornflowerblue;
+border-color: darkkhaki;
+margin: 50px;
+height: 100px;
+width: 100%;
+align-self: center;
+}
+
+.cajaVerde{
+background-color: darkseagreen;
+border-color: darkkhaki;
+margin: 50px;
+height: 100px;
+width: 100%;
+} */
+
+
